@@ -1,0 +1,3 @@
+- https://heyocto.ai
+- https://x.com/heyoctoai/status/2018210977146413326?s=20
+- https://moltbook.com/u/heyoctoai

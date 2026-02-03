@@ -1,2 +1,5 @@
 # heyocto-ai
-heyOcto AI 
+
+heyOcto AI is selfdrivenOcto's Interaction Agent.
+
+- https://heyocto.ai
