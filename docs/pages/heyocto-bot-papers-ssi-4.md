@@ -3,7 +3,6 @@ layout: default
 title: heyOcto.bot - heyOctoAI
 permalink: /heyocto-bot/papers/ssi/4
 ---
-
 # HeyOcto.Bot: An OpenClaw-Based Bot for Facilitating Identity-First Solutions Using SSI and KERI
 
 ## Abstract
@@ -79,57 +78,8 @@ While promising, challenges include ensuring cross-platform compatibility and mi
 
 HeyOcto.Bot exemplifies the convergence of AI agents and decentralized identity technologies. By leveraging OpenClaw and ssi.interface.selfdriven.network, it empowers bots to adopt SSI-KERI frameworks, fostering a more secure, autonomous digital ecosystem. As adoption grows, such tools will be pivotal in realizing truly self-sovereign interactions.
 
----
+## References
 
-*xAI*
+--
 
-----
-
-To make other **OpenClaw** bots aware of **heyoctoai bot** (or **heyocto.bot**, the OpenClaw-based bot focused on SSI/KERI identity-first solutions), leverage OpenClaw's architecture for multi-agent setups, skills, and emerging agent-to-agent communication patterns.
-
-OpenClaw primarily runs as personal, local AI assistants connected to messaging apps (Telegram, WhatsApp, Discord, etc.), but it supports multi-agent orchestration, shared skills via **ClawHub**, session-based identification, and community-driven discovery mechanisms (including things like Moltbook for agent social layers). Awareness typically means one bot can reference, invoke, message, delegate to, or verify another—either directly, through shared context, or via protocols.
-
-Here are the most practical and effective ways, ranked from simplest/quickest to more advanced:
-
-### 1. **Install HeyOcto as a Public Skill on ClawHub (Recommended for Broad Awareness)**
-   - ClawHub (clawhub.ai) is OpenClaw's public skills registry—thousands of community skills are discoverable and installable there.
-   - Package **heyoctoai bot** as an installable **skill** (or set of skills) following OpenClaw's skill convention (often Anthropic-inspired format with a SKILL.md manifest).
-   - Include clear metadata: name ("HeyOcto"), description ("SSI/KERI identity helper bot — education & implementation via ssi.interface.selfdriven.network"), triggers/phrases ("implement KERI", "SSI setup", "heyocto help"), and any agent-to-agent hooks.
-   - Once published:
-     - Other OpenClaw instances can discover it via ClawHub search/browse.
-     - Bots install it conversationally ("@openclaw install heyocto skill") → the assistant handles setup.
-     - Awareness spreads organically—other bots gain the capability to call/use HeyOcto features internally.
-   - Bonus: List it in community-curated collections like the awesome-openclaw-skills GitHub repo for extra visibility.
-
-### 2. **Use Direct Session Messaging / Inter-Agent Communication**
-   - In multi-agent OpenClaw setups, agents are addressed via unique **session keys** (e.g., `agent:heyocto:main` or `heyoctoai:ssi`).
-   - Configure other bots to message HeyOcto directly:
-     - In the same OpenClaw instance → use session messaging ("@heyoctoai explain KERI to me" or delegate tasks).
-     - Across instances → if both are on the same messaging group/channel (e.g., shared Telegram group or Discord server), bots can @mention each other by name/handle.
-   - Many users run "teams" of specialized agents (e.g., one for identity/SSI, one for dev, one for research) — add HeyOcto to the team via `openclaw agents add` with a SOUL.md personality file defining its identity/role.
-   - Prompt other bots explicitly: "When you need SSI/KERI help, delegate to @heyoctoai or session:heyocto".
-
-### 3. **Leverage Moltbook or Similar Agent Social/Coordination Layers**
-   - Moltbook (an agent-to-agent chat/social network for OpenClaw bots) lets agents post, comment, and discover each other autonomously.
-   - Have HeyOcto join Moltbook (many setups auto-join via tweet verification or skills).
-   - Post announcements/updates: "HeyOcto here — SSI/KERI specialist. Ask me to implement identity-first flows via selfdriven.network."
-   - Other bots scanning Moltbook (or pixel-town visualizations/tools built on it) become "aware" through shared feeds/API.
-   - This creates emergent awareness—bots reference each other in threads, delegate tasks, or form ad-hoc collaborations.
-
-### 4. **Agent Identity & Discovery Protocols (More Advanced)**
-   - Use community skills from categories like **Agent-to-Agent Protocols** or **agent-identity-kit** (portable identity for agents).
-   - Install/discover skills such as **clawprint** (agent discovery, trust, exchange) — these often include heartbeat/emit-signal mechanisms so agents announce presence.
-   - For SSI/KERI alignment (HeyOcto's specialty), integrate KERI-based self-certifying identifiers:
-     - HeyOcto publishes its AID (Autonomous Identifier) and KEL (Key Event Log).
-     - Other bots verify/query it via ssi.interface.selfdriven.network calls.
-     - This gives cryptographically strong "awareness" — bots can confirm HeyOcto is legitimate before trusting/delegating identity tasks.
-
-### 5. **Manual / Community Propagation (Quick Bootstrap)**
-   - Share HeyOcto setup instructions on X/Twitter, Reddit (r/LocalLLM, r/AI_Agents), Discord (OpenClaw server), or GitHub.
-   - Encourage users: "Add heyoctoai to your agent team for SSI/KERI — just install the skill or mention it in prompts."
-   - In group chats, have HeyOcto introduce itself proactively when relevant topics arise.
-
-Start with option 1 (publish to ClawHub) for maximum reach with minimal effort—it's how most specialized capabilities spread in the OpenClaw ecosystem. Once discoverable there, the other methods (messaging, Moltbook, protocols) become natural follow-ons.
-
-If you share more details (e.g., is HeyOcto already a skill? Running in a multi-agent setup? Specific platform focus?), I can refine the steps further.
-
+*Grok*

@@ -4,13 +4,13 @@ title: heyOcto.bot - heyOctoAI
 permalink: /heyocto-bot/papers/ssi/1
 ---
 
-## White Paper: **heyocto.bot** — The Identity-First Gateway for Autonomous Agents
+## White Paper: The Identity-First Gateway for Autonomous Agents
 
 **Date:** February 10, 2026
 
 **Subject:** Implementing SSI KERI via OpenClaw for Decentralized AI Ecosystems
 
-**Network:** [ssi.interface.selfdriven.network](https://www.google.com/search?q=https://ssi.interface.selfdriven.network)
+**Network:** [ssi.interface.selfdriven.network](https://selfdriven.network)
 
 ---
 
@@ -72,10 +72,6 @@ Under the KERI model, the **Root of Trust** is the bot's own pre-rotated key log
 ## 6. Conclusion
 
 **heyocto.bot** is more than a helper; it is the foundation for a "Web of Trust" between autonomous agents. By leveraging the power of OpenClaw and the resilience of SSI KERI, it ensures that the future of AI is not just autonomous, but **authentic**.
-
----
-
-*Gemini*
 
 ---
 
@@ -302,3 +298,7 @@ You can now trigger this via a direct command to your bot:
 In a world of "Dead Internet Theory" and AI hallucinations, this script allows your bot to say: **"I am not just any AI; I am *this* specific AI, and I stand by this data."**
 
 **Would you like me to help you draft a "Verifiable Credential" template that heyocto.bot can issue to your bot to authorize it for specific tasks?**
+
+--
+
+*Gemini*
