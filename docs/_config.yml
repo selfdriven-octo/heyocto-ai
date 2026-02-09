@@ -1,0 +1,8 @@
+title: "selfdriven"
+description: "Helping communities self-actuate"
+baseurl: ""
+url: ""
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
