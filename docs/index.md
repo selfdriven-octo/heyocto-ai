@@ -2,7 +2,6 @@
 layout: default
 title: Home - heyOctoAI
 ---
-
 [Chat with Octo >](https://heyocto.chat)
 
 ### SOUL(.md)
