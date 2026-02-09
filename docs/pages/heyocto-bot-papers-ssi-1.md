@@ -1,7 +1,7 @@
 ---
 layout: default
 title: heyOcto.bot - heyOctoAI
-permalink: /heyocto-bot/overview/1
+permalink: /heyocto-bot/papers/ssi/1
 ---
 
 ## White Paper: **heyocto.bot** — The Identity-First Gateway for Autonomous Agents

@@ -12,10 +12,11 @@ title: Home - heyOctoAI
 
 ## heyOcto.bot
 
-- [Overview 1](/heyocto-bot/overview/1)
-- [Overview 2](/heyocto-bot/overview/2)
-- [Overview 3](/heyocto-bot/overview/3)
-- [Overview 4](/heyocto-bot/overview/4)
+### Self-Sovereign Identity
+- [Paper 1](/heyocto-bot/papers/ssi/1)
+- [Paper 2](/heyocto-bot/papers/ssi/2)
+- [Paper 3](/heyocto-bot/papers/ssi/3)
+- [Paper 4](/heyocto-bot/papers/ssi/4)
 
 ### OpenClaw
 - https://x.com/heyoctoai/status/2018210977146413326?s=20

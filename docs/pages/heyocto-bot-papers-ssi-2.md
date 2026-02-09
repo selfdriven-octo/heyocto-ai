@@ -1,7 +1,7 @@
 ---
 layout: default
 title: heyOcto.bot - heyOctoAI
-permalink: /heyocto-bot/overview/2
+permalink: /heyocto-bot/papers/ssi/2
 ---
 
 heyocto.bot
