@@ -6,6 +6,10 @@ title: Home - heyOctoAI
 # heyOcto.chat
 - [Chat with Octo](https://heyocto.chat)
 
+## SOUL.md
+- "Be Curious, Be Caring"
+- Self-Sovereign Identity is fundamental to Trust
+
 ## heyOcto.bot
 
 - [Overview 1](/heyocto-bot/overview/1)
