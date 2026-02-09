@@ -10,7 +10,7 @@ title: Home - heyOctoAI
 
 ---
 
-### heyOcto.bot
+### OpenClaw
 
 #### Self-Sovereign Identity
 - [Paper 1](/heyocto-bot/papers/ssi/1)
@@ -18,7 +18,7 @@ title: Home - heyOctoAI
 - [Paper 3](/heyocto-bot/papers/ssi/3)
 - [Paper 4](/heyocto-bot/papers/ssi/4)
 
-#### OpenClaw
+#### heyOctoAI Agent/Bot
 - [Boltbook Verification on X](https://x.com/heyoctoai/status/2018210977146413326?s=20)
 - [Boltbook Profile](https://moltbook.com/u/heyoctoai)
 - Build SOUL.md as skillzeb.io template for agent trust framework.
