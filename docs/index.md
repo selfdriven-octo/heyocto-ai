@@ -3,8 +3,8 @@ layout: default
 title: Home - heyOctoAI
 ---
 
-# heyOcto.ai
-- https://heyocto.ai
+# heyOcto.chat
+- [Chat with Octo](https://heyocto.chat)
 
 ## heyOcto.bot
 
