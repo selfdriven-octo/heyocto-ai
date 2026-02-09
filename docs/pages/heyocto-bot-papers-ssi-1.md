@@ -4,7 +4,7 @@ title: heyOcto.bot - heyOctoAI
 permalink: /heyocto-bot/papers/ssi/1
 ---
 
-## White Paper: The Identity-First Gateway for Autonomous Agents
+## The Identity-First Gateway for Autonomous Agents
 
 **Date:** February 10, 2026
 

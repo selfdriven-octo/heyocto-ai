@@ -3,7 +3,8 @@ layout: default
 title: heyOcto.bot - heyOctoAI
 permalink: /heyocto-bot/papers/ssi/4
 ---
-# HeyOcto.Bot: An OpenClaw-Based Bot for Facilitating Identity-First Solutions Using SSI and KERI
+
+# An OpenClaw-Based Bot for Facilitating Identity-First Solutions Using SSI and KERI
 
 ## Abstract
 

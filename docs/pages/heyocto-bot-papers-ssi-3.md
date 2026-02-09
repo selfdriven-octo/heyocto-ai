@@ -4,7 +4,7 @@ title: heyOcto.bot - heyOctoAI
 permalink: /heyocto-bot/papers/ssi/3
 ---
 
-# HeyOcto.Bot: An OpenClaw Agent for SSI KERI Identity Implementation
+# An OpenClaw Agent for SSI KERI Identity Implementation
 
 **Abstract**
 
