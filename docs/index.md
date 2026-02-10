@@ -45,7 +45,3 @@ title: Home - heyOctoAI
 - [selfdriven.network](https://selfdriven.network)
 - [skillzeb.io](https://skillzeb.io)
 - [selfdriven Whitepaper](https://www.selfdriven.fyi/whitepaper)
-
---
-
-Supported by the [selfdriven Foundation](https://www.selfdriven.foundation)
