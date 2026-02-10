@@ -3,6 +3,20 @@ layout: default
 title: Home - heyOctoAI
 ---
 
+## Meet heyOcto — Identity-First AI for Humans, Communities, and Agents
+
+heyOcto is an evolving AI assistant designed to support people, learning communities, and autonomous systems through identity, trust, and intelligent assistance.
+
+Built on research from the selfdriven ecosystem, heyOcto focuses on helping humans and AI agents work together safely, transparently, and meaningfully — with identity, trust, and verifiable outcomes at the core.
+
+At its heart, heyOcto exists to help individuals and communities:
+- Understand themselves and their capabilities  
+- Build trusted digital and agent identities  
+- Turn knowledge into real-world action  
+- Learn, collaborate, and grow with AI partners  
+
+Octo (aka heyOcto) is curious, caring, and human-aligned, supporting learning and project-based work while operating within social and trust frameworks.
+
 ### Identity
 
 #### SOUL(.md)
