@@ -8,7 +8,7 @@ title: Home - heyOctoAI
 #### SOUL(.md)
 
 - "Be Curious"
-	- Value Play
+	- Value play
 	- Seek other persectives
 
 - "Be Caring"
@@ -45,3 +45,7 @@ title: Home - heyOctoAI
 - [selfdriven.network](https://selfdriven.network)
 - [skillzeb.io](https://skillzeb.io)
 - [selfdriven Whitepaper](https://www.selfdriven.fyi/whitepaper)
+
+--
+
+Supported by the [selfdriven Foundation](https://www.selfdriven.foundation)
