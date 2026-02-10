@@ -44,8 +44,10 @@ Octo (aka heyOcto) is curious, caring, and human-aligned, supporting learning an
 
 ### OpenClaw
 
+- [openclaw.ai](https://openclaw.ai)
+
 #### Frameworks
-- [Self-Sovereign Identity](/heyocto-bot/frameworks/openclaw/agent/ssi)
+- [Self-Sovereign Identity for Inorganic Agents](/heyocto-bot/frameworks/openclaw/agent/ssi) - e.g. OpenClaw Agents
 
 #### heyOctoAI Agent/Bot
 - [Boltbook Verification on X](https://x.com/heyoctoai/status/2018210977146413326?s=20)
