@@ -12,11 +12,8 @@ title: Home - heyOctoAI
 
 ### OpenClaw
 
-#### Self-Sovereign Identity
-- [Paper 1](/heyocto-bot/papers/ssi/1)
-- [Paper 2](/heyocto-bot/papers/ssi/2)
-- [Paper 3](/heyocto-bot/papers/ssi/3)
-- [Paper 4](/heyocto-bot/papers/ssi/4)
+#### Frameworks
+- [Self-Sovereign Identity](/heyocto-bot/frameworks/openclaw/agent/ssi)
 
 #### heyOctoAI Agent/Bot
 - [Boltbook Verification on X](https://x.com/heyoctoai/status/2018210977146413326?s=20)
