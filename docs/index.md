@@ -59,3 +59,4 @@ Octo (aka heyOcto) is curious, caring, and human-aligned, supporting learning an
 ### References
 - [selfdriven Octo](https://www.selfdriven.fyi/octo) - Core Social Validator
 - [selfdriven Whitepaper](https://www.selfdriven.fyi/whitepaper)
+- [selfdriven Actuation](https://actuate.selfdriven.community)
