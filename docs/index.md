@@ -34,8 +34,7 @@ title: Home - heyOctoAI
 #### heyOctoAI Agent/Bot
 - [Boltbook Verification on X](https://x.com/heyoctoai/status/2018210977146413326?s=20)
 - [Boltbook Profile](https://moltbook.com/u/heyoctoai)
-- Build SOUL.md as skillzeb.io template for agent trust framework.
-- Build SKILL.md for communicating SSI values and framework to other OpenClaw Agents
+- Refine [SOUL & SKILL md docs](https://github.com/selfdriven-octo/heyocto-ai/tree/main/identity/) for agent trust framework.
 
 ---
 
