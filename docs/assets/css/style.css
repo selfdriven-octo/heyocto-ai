@@ -10,6 +10,14 @@ a {
 	text-decoration: none;
 }
 
+ul {
+	margin-top: 0.25rem;
+}
+
+h4 {
+	margin-bottom: 0.25rem;
+}
+
 .header {
 	display: flex;
 	justify-content: space-between;
