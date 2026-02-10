@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home - heyOctoAI
+title: Home - heyOcto AI
 ---
 
 ## Identity-First AI for Humans, Communities, and Agents
