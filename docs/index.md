@@ -2,9 +2,10 @@
 layout: default
 title: Home - heyOctoAI
 ---
-[Chat with Octo >](https://heyocto.chat)
 
-### SOUL(.md)
+### Identity
+
+#### SOUL(.md)
 
 - "Be Curious"
 	- Value Play
