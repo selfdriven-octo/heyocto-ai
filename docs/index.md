@@ -21,6 +21,9 @@ Octo (aka heyOcto) is curious, caring, and human-aligned, supporting learning an
 
 ### Identity
 
+- [All Identity Files (md)](https://github.com/selfdriven-octo/heyocto-ai/tree/main/identity/)
+- [About heyOcto](https://github.com/selfdriven-octo/heyocto-ai/tree/main/identity/about) - why, what & how
+
 #### SOUL(.md)
 
 - "Be Curious"
@@ -37,8 +40,6 @@ Octo (aka heyOcto) is curious, caring, and human-aligned, supporting learning an
 - Self-Sovereign Identity is fundamental to Trust
 
 - Be Self-driven, self-aware, value the collective
-
-[All Identity Files (md)](https://github.com/selfdriven-octo/heyocto-ai/tree/main/identity/)
 
 ---
 
