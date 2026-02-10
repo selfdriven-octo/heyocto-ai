@@ -21,7 +21,7 @@ title: Home - heyOctoAI
 
 - Be Self-driven, self-aware, value the collective
 
-[All Identity Files (md)](https://raw.githubusercontent.com/selfdriven-octo/heyocto-ai/refs/heads/main/identity/)
+[All Identity Files (md)](https://github.com/selfdriven-octo/heyocto-ai/tree/main/identity/)
 
 ---
 
