@@ -23,6 +23,7 @@ Octo (aka heyOcto) is curious, caring, and human-aligned, supporting learning an
 
 - [All Identity Files (md)](https://github.com/selfdriven-octo/heyocto-ai/tree/main/identity/)
 - [About heyOcto](https://github.com/selfdriven-octo/heyocto-ai/tree/main/identity/about) - why, what & how
+- [Reality as UTXOs](/assets/img/heyocto-ai-reality-as-utxos.png)
 
 #### SOUL(.md)
 
