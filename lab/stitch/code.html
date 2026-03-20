@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>OCTO AI | Identity-First Intelligence</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-background": "#1b1c1c",
+              "tertiary-container": "#6a6969",
+              "on-primary-container": "#f1e5ff",
+              "background": "#fcf9f8",
+              "outline-variant": "#ccc3d4",
+              "tertiary-fixed": "#e4e2e1",
+              "on-tertiary": "#ffffff",
+              "surface": "#fcf9f8",
+              "on-secondary-fixed": "#1b1c1c",
+              "inverse-surface": "#303030",
+              "tertiary": "#515151",
+              "on-tertiary-container": "#ece9e9",
+              "inverse-primary": "#d4bbff",
+              "secondary": "#5f5e5e",
+              "on-secondary-fixed-variant": "#474746",
+              "secondary-container": "#e4e2e1",
+              "surface-container-low": "#f6f3f2",
+              "on-primary": "#ffffff",
+              "tertiary-fixed-dim": "#c8c6c6",
+              "on-primary-fixed-variant": "#5827a4",
+              "on-secondary-container": "#656464",
+              "surface-variant": "#e4e2e1",
+              "on-primary-fixed": "#260058",
+              "surface-container": "#f0eded",
+              "surface-tint": "#7143bd",
+              "on-error": "#ffffff",
+              "outline": "#7b7484",
+              "on-tertiary-fixed": "#1b1c1c",
+              "surface-container-lowest": "#ffffff",
+              "on-surface": "#1b1c1c",
+              "surface-container-high": "#eae7e7",
+              "error-container": "#ffdad6",
+              "primary-container": "#7c4fc9",
+              "primary-fixed-dim": "#d4bbff",
+              "on-secondary": "#ffffff",
+              "on-error-container": "#93000a",
+              "primary-fixed": "#ebdcff",
+              "primary": "#6334af",
+              "surface-container-highest": "#e4e2e1",
+              "on-tertiary-fixed-variant": "#474747",
+              "inverse-on-surface": "#f3f0ef",
+              "surface-dim": "#dcd9d9",
+              "surface-bright": "#fcf9f8",
+              "on-surface-variant": "#4a4452",
+              "error": "#ba1a1a",
+              "secondary-fixed": "#e4e2e1",
+              "secondary-fixed-dim": "#c8c6c5"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-card {
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(20px);
+      }
+      .gradient-text {
+        background: linear-gradient(135deg, #6334af 0%, #7c4fc9 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .primary-gradient {
+        background: linear-gradient(135deg, #6334af 0%, #7c4fc9 100%);
+      }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-xl shadow-[0_20px_40px_rgba(99,52,175,0.04)]">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 h-20">
+<div class="text-2xl font-black text-[#6334af] dark:text-[#7c4fc9] tracking-tighter font-['Plus_Jakarta_Sans']">OCTO AI</div>
+<div class="hidden md:flex items-center gap-10 font-['Plus_Jakarta_Sans'] font-bold tracking-tight">
+<a class="text-[#6334af] dark:text-[#7c4fc9] border-b-2 border-[#6334af] pb-1 transition-all duration-300" href="#">Identity</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#6334af] transition-all duration-300" href="#">SOUL(.md)</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#6334af] transition-all duration-300" href="#">OpenClaw</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-[#6334af] transition-all duration-300" href="#">Frameworks</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden lg:block text-slate-600 dark:text-slate-400 font-semibold hover:opacity-80 transition-all duration-300 active:scale-95">Sign In</button>
+<button class="primary-gradient text-white px-6 py-2.5 rounded-full font-bold shadow-lg shadow-primary/20 hover:opacity-90 transition-all duration-300 active:scale-95">Get Started</button>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative pt-40 pb-32 px-8 overflow-hidden">
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-[120%] h-[800px] bg-[radial-gradient(circle_at_50%_0%,rgba(99,52,175,0.08)_0%,transparent_70%)] -z-10"></div>
+<div class="max-w-7xl mx-auto text-center lg:text-left grid lg:grid-cols-2 gap-16 items-center">
+<div class="space-y-8">
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/5 text-primary border border-primary/10 text-sm font-semibold">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+                    Identity-First Intelligence
+                </div>
+<h1 class="font-headline text-5xl md:text-7xl font-extrabold text-on-surface leading-[1.1] tracking-tight">
+                    Identity-First AI for Humans, <span class="gradient-text">Communities, and Agents</span>
+</h1>
+<p class="text-xl text-on-surface-variant max-w-xl leading-relaxed font-body">
+                    Octo AI is your evolving digital assistant designed to bridge the gap between biological and artificial identity, ensuring trust and verifiable outcomes in every interaction.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4 pt-4">
+<button class="primary-gradient text-white px-8 py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-2 shadow-xl shadow-primary/25 hover:opacity-90 transition-all active:scale-95">
+                        Get Started
+                        <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<button class="bg-surface-container-highest text-on-surface px-8 py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-2 hover:bg-surface-dim transition-all active:scale-95">
+<span class="material-symbols-outlined">code</span>
+                        View on Github
+                    </button>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -inset-4 bg-primary/20 blur-3xl rounded-full opacity-30 animate-pulse"></div>
+<div class="relative glass-card border border-white/40 p-2 rounded-[2.5rem] shadow-2xl">
+<img alt="Abstract AI Interface" class="w-full h-auto rounded-[2rem] object-cover aspect-[4/3]" data-alt="Abstract luminous network nodes and fluid purple shapes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7XTixcHhEepJ7bfIWcWjQWapa2x9iZJs5t1C0U4u4F36M1BntLzFW8CKxzQwaFyfcBeyfUIm0l-LOri5h0rUaUH3BWYaBUJQT46qMUDdZj0-YhkUVWtIez_z1WYUil85ceuo2Hr7m-QU9WzB4EbXAEcRi1jPethrjXn-tMR2hwyCB2olRCzhRk_1jzGr3IUoTBFA102d4zgb5Yxw11U1bZhP2Iq75aRWIX1MEJDrS5_VC0oNB9f67pgaHNCSF1sdGZqMJf_jF2ek"/>
+</div>
+</div>
+</div>
+</header>
+<!-- Introduction / Research -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid lg:grid-cols-2 gap-20 items-center">
+<div class="order-2 lg:order-1">
+<div class="grid grid-cols-2 gap-6">
+<div class="p-8 rounded-3xl bg-surface-container-lowest shadow-sm space-y-4">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="psychology">psychology</span>
+<h3 class="font-headline font-bold text-lg">Understand</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Synthesizing identity patterns across multiple digital touchpoints.</p>
+</div>
+<div class="p-8 rounded-3xl bg-surface-container-lowest shadow-sm space-y-4 translate-y-8">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="architecture">architecture</span>
+<h3 class="font-headline font-bold text-lg">Build</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Creating verifiable frameworks for agentic autonomy.</p>
+</div>
+<div class="p-8 rounded-3xl bg-surface-container-lowest shadow-sm space-y-4">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="auto_awesome">auto_awesome</span>
+<h3 class="font-headline font-bold text-lg">Knowledge</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Turning raw data into actionable intelligence with soul.</p>
+</div>
+<div class="p-8 rounded-3xl bg-surface-container-lowest shadow-sm space-y-4 translate-y-8">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="school">school</span>
+<h3 class="font-headline font-bold text-lg">Learn</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed">Continuous evolution through trusted human feedback loops.</p>
+</div>
+</div>
+</div>
+<div class="order-1 lg:order-2 space-y-6">
+<h2 class="font-headline text-4xl font-extrabold tracking-tight">Evolving Research &amp; <br/><span class="text-primary">Core Values</span></h2>
+<p class="text-lg text-on-surface-variant leading-relaxed">
+                        At Octo AI, we believe that for AI to truly serve humanity, it must understand identity. Our research focuses on building systems that are not just intelligent, but identifiable, trust-oriented, and capable of verifiable outcomes.
+                    </p>
+<div class="space-y-4 pt-4">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="verified_user" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+<span class="font-semibold">Privacy as a First-Class Citizen</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="hub" style="font-variation-settings: 'FILL' 1;">hub</span>
+<span class="font-semibold">Decentralized Intelligence Hubs</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="diversity_3" style="font-variation-settings: 'FILL' 1;">diversity_3</span>
+<span class="font-semibold">Human-Centric Collaboration</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Core Concept: Identity (Asymmetric Bento Grid) -->
+<section class="py-32 overflow-hidden">
+<div class="max-w-7xl mx-auto px-8">
+<div class="mb-16">
+<h2 class="font-headline text-4xl font-extrabold tracking-tight">The Core Architecture</h2>
+<p class="text-on-surface-variant mt-4 text-lg max-w-2xl">The pillars of the Octo ecosystem, designed for identity-first intelligence.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 h-full">
+<!-- Identity Card -->
+<div class="md:col-span-7 bg-surface-container-lowest rounded-[2.5rem] p-12 relative overflow-hidden group shadow-sm hover:shadow-xl transition-all duration-500">
+<div class="relative z-10 flex flex-col h-full justify-between gap-12">
+<div>
+<span class="text-primary font-bold tracking-widest uppercase text-xs">Foundation</span>
+<h3 class="font-headline text-4xl font-extrabold mt-4 mb-6">Identity</h3>
+<p class="text-on-surface-variant text-lg leading-relaxed max-w-md">
+                                The anchor of every interaction. We define identity through a unique blend of verifiable credentials and behavioral heuristics.
+                            </p>
+</div>
+<button class="flex items-center gap-2 font-bold text-primary group-hover:gap-4 transition-all">
+                            Explore Identity Engine <span class="material-symbols-outlined">east</span>
+</button>
+</div>
+<div class="absolute top-0 right-0 w-1/2 h-full opacity-20 -z-0 group-hover:scale-110 transition-transform duration-700">
+<img alt="Abstract Lines" class="w-full h-full object-cover" data-alt="Purple fluid geometric lines on white background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCH-dPZQJaSZSTrc0TRuPo4DuiBKYvG6_wMZ8D5ryoRT7-Cx7ljZnT_sdarGJYrxifbG_XntghtfeBRfH8wH78UBTEjk9Vc0XMa8Cfv9Wgywh2wjhJpzrcFj4O0uoHF673Fs4hfp5NUhvNUcmAtxk14oNYOhpKXa5VK59ARhN7KMF38LIvfTsphkD9pxWqNYQpiwJc9e-z9RPq-YQhffRHJatGybSDu94AtkSt9jC7fWd34N4re1cvXlOR_wqOmtwtUgRp3Nwk02OM"/>
+</div>
+</div>
+<!-- SOUL(.md) Card -->
+<div class="md:col-span-5 primary-gradient rounded-[2.5rem] p-12 text-white relative overflow-hidden shadow-2xl">
+<div class="relative z-10">
+<span class="text-on-primary-container/80 font-bold tracking-widest uppercase text-xs">Standard</span>
+<h3 class="font-headline text-4xl font-extrabold mt-4 mb-6">SOUL(.md)</h3>
+<p class="text-on-primary-container/90 text-lg leading-relaxed">
+                            A markdown-first specification for defining AI personality, constraints, and long-term memory.
+                        </p>
+</div>
+<div class="mt-12 p-6 bg-white/10 rounded-2xl backdrop-blur-md border border-white/20 font-mono text-sm">
+<span class="text-on-primary-container"># Core Personality</span><br/>
+<span class="text-white/80">traits: [empathetic, logical]</span><br/>
+<span class="text-white/80">objective: "assist_human"</span>
+</div>
+</div>
+<!-- OpenClaw Card -->
+<div class="md:col-span-12 bg-on-background rounded-[2.5rem] p-12 text-white flex flex-col md:flex-row items-center gap-12 group">
+<div class="md:w-1/2 space-y-6">
+<div class="inline-block px-4 py-1 bg-primary rounded-full text-xs font-bold uppercase">Open Source</div>
+<h3 class="font-headline text-4xl font-extrabold">OpenClaw</h3>
+<p class="text-slate-400 text-lg leading-relaxed">
+                            The universal interface for AI agents to interact with biological identities and decentralized systems without compromising security.
+                        </p>
+<button class="bg-white text-on-background px-8 py-3 rounded-full font-bold hover:bg-primary-fixed transition-colors">Documentation</button>
+</div>
+<div class="md:w-1/2 rounded-[2rem] overflow-hidden">
+<img alt="Cybersecurity" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-700" data-alt="High tech hardware circuitry with glowing purple accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCx4s2unX8FLkqJR2r2l4KGwYJNJkqZIP_0whyBMOs5GQwp8KiHVEM5Hs3u-4EcMkzGe8Q-WH8j44KWnTpVpsGMqJmwoQ6y_98gW6SQKiSd3V1C6_wt-aweM2d528RVwZ7DBxvSmayNLK1tHIg3orRlq6nLwYa9IIJs2w_SwnYaneGAL_xZfhfa0AgawjDjjUjENJSiSS8bMPzlzZfAWG0cVkLcLHaunX1jl7KzYWyNVHkInvJZLqFysiSfBIGidtlyfzedzm5CqCo"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Frameworks & The Bot -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center max-w-3xl mx-auto mb-20 space-y-4">
+<h2 class="font-headline text-4xl font-extrabold tracking-tight">Universal Frameworks</h2>
+<p class="text-on-surface-variant text-lg">Build, deploy, and scale identity-aware agents across any platform with our standardized toolkits.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="p-1 border border-outline-variant/30 rounded-[2rem] hover:border-primary/50 transition-colors">
+<div class="bg-surface-container-low rounded-[1.8rem] p-10 h-full flex flex-col">
+<div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary" data-icon="terminal">terminal</span>
+</div>
+<h4 class="font-headline font-bold text-xl mb-4">CLI Framework</h4>
+<p class="text-on-surface-variant mb-8 flex-grow">Bootstrap identity agents directly from your terminal with pre-baked SOUL templates.</p>
+<code class="text-xs bg-surface-container p-3 rounded-lg text-primary">npm install @octo/core</code>
+</div>
+</div>
+<div class="p-1 border border-outline-variant/30 rounded-[2rem] hover:border-primary/50 transition-colors">
+<div class="bg-surface-container-low rounded-[1.8rem] p-10 h-full flex flex-col">
+<div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary" data-icon="smart_toy">smart_toy</span>
+</div>
+<h4 class="font-headline font-bold text-xl mb-4">OctoBot Engine</h4>
+<p class="text-on-surface-variant mb-8 flex-grow">The core runtime for executing complex logic within identity-verified environments.</p>
+<button class="text-left text-sm font-bold text-primary flex items-center gap-2">View Benchmarks <span class="material-symbols-outlined text-sm">open_in_new</span></button>
+</div>
+</div>
+<div class="p-1 border border-outline-variant/30 rounded-[2rem] hover:border-primary/50 transition-colors">
+<div class="bg-surface-container-low rounded-[1.8rem] p-10 h-full flex flex-col">
+<div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary" data-icon="settings_input_component">settings_input_component</span>
+</div>
+<h4 class="font-headline font-bold text-xl mb-4">Plugin System</h4>
+<p class="text-on-surface-variant mb-8 flex-grow">Extend agent capabilities with community-verified modules and identity hooks.</p>
+<button class="text-left text-sm font-bold text-primary flex items-center gap-2">Browse Plugins <span class="material-symbols-outlined text-sm">grid_view</span></button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="py-24">
+<div class="max-w-5xl mx-auto px-8">
+<div class="primary-gradient rounded-[3rem] p-16 text-center text-white relative overflow-hidden shadow-[0_40px_80px_rgba(99,52,175,0.2)]">
+<div class="absolute top-0 left-0 w-full h-full opacity-10">
+<div class="grid grid-cols-6 h-full gap-4 rotate-12 scale-125">
+<div class="h-full bg-white/20"></div>
+<div class="h-full bg-white/20"></div>
+<div class="h-full bg-white/20"></div>
+<div class="h-full bg-white/20"></div>
+<div class="h-full bg-white/20"></div>
+<div class="h-full bg-white/20"></div>
+</div>
+</div>
+<div class="relative z-10 space-y-8">
+<h2 class="font-headline text-4xl md:text-5xl font-extrabold">Join the Identity Revolution</h2>
+<p class="text-on-primary-container text-xl max-w-2xl mx-auto">Start building verifiable, identity-first AI applications today. The future of intelligence is human-centric.</p>
+<div class="flex flex-col sm:flex-row justify-center gap-4">
+<button class="bg-white text-primary px-10 py-4 rounded-xl font-bold text-lg hover:bg-primary-fixed transition-all active:scale-95">Get Started Now</button>
+<button class="bg-primary/20 backdrop-blur-md border border-white/20 text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-white/10 transition-all active:scale-95">Join Community</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full py-12 mt-20 bg-slate-50 dark:bg-slate-900">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto px-8">
+<div class="space-y-6">
+<div class="text-lg font-bold text-slate-900 dark:text-slate-100 font-headline uppercase tracking-widest">Octo AI</div>
+<p class="font-['Inter'] text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+                    Identity-First Intelligence for the modern era. Building the bridge between human essence and artificial agency.
+                </p>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-slate-900 dark:text-slate-100">Ecosystem</h4>
+<ul class="space-y-2 font-['Inter'] text-sm">
+<li><a class="text-slate-500 hover:text-[#6334af] transition-all" href="#">selfdriven</a></li>
+<li><a class="text-slate-500 hover:text-[#6334af] transition-all" href="#">octomics</a></li>
+<li><a class="text-slate-500 hover:text-[#6334af] transition-all" href="#">skillzeb</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-slate-900 dark:text-slate-100">Resources</h4>
+<ul class="space-y-2 font-['Inter'] text-sm">
+<li><a class="text-slate-500 hover:text-[#6334af] transition-all" href="#">Privacy</a></li>
+<li><a class="text-slate-500 hover:text-[#6334af] transition-all" href="#">Terms</a></li>
+<li><a class="text-slate-500 hover:text-[#6334af] transition-all" href="#">Github</a></li>
+<li><a class="text-slate-500 hover:text-[#6334af] transition-all" href="#">Docs</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-slate-900 dark:text-slate-100">Social</h4>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-slate-200 dark:bg-slate-800 flex items-center justify-center text-slate-600 hover:text-[#6334af] transition-all" href="#">
+<span class="material-symbols-outlined text-lg" data-icon="chat">chat</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-slate-200 dark:bg-slate-800 flex items-center justify-center text-slate-600 hover:text-[#6334af] transition-all" href="#">
+<span class="material-symbols-outlined text-lg" data-icon="public">public</span>
+</a>
+</div>
+<p class="font-['Inter'] text-xs text-slate-400 mt-4">
+                    © 2024 Octo AI. Identity-First Intelligence.
+                </p>
+</div>
+</div>
+</footer>
+</body></html>
